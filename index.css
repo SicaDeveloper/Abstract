@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: black;
+}
+
+.heading-base{
+    display: flex;
+    width: 80;
+    text-decoration: none;
+    justify-content:space-between;
+    align-items: baseline;
+    gap: 5px;
+    padding: 0 30px;
+    padding-top: 15px;
+}
+.header-logo-1{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.header-logo-2{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+.header-button-1{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    border-color:white;
+    border-style: solid;
+    background-color: black;
+}
+.header-button-1,.header-button-2:hover{
+    cursor: pointer;
+}
+.header-button-2{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #4C5FD5;
+    border-radius: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 10px;   
+}
+.header-button-2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.25s ease-in 0s;
+}
+.main{
+    background-color:rgb(218, 219, 241);
+    text-align: center;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 20rem;
+}
+.search{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1rem 1rem 20px 20px;
+    width: 70%;
+}
+.inner-footer{
+    display: flex;
+    align-items: baseline;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style-type: none;
+    padding:2px;
+}
+.footer-title{
+    color: white;
+    font-size: 25px;
+    line-height: 24px;
+}
