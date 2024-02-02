@@ -1,18 +1,20 @@
 body{
-    margin:0;
+    margin: 0;
     padding: 0;
+}
+.heading,footer{
     background-color: black;
 }
-
+.heading,.footer,body{
+    display: block;
+}
 .heading-base{
     display: flex;
-    width: 80;
     text-decoration: none;
     justify-content:space-between;
     align-items: baseline;
-    gap: 5px;
-    padding: 0 30px;
-    padding-top: 15px;
+    gap: 10px;
+    padding: 15px 50px 15px 50px;
 }
 .header-logo-1{
     text-decoration: none;
@@ -63,6 +65,11 @@ body{
     font-size: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 20rem;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+h2{
+    margin: 0;
 }
 .search{
     border: 1px solid;
@@ -70,26 +77,58 @@ body{
     padding: 1rem 1rem 20px 20px;
     width: 70%;
 }
+
+.body-container{
+    display: flex;
+}
+.body-container-items{
+    font-size: 24px;
+    width: 50%;
+}
+.footer{
+    width: 100%;
+    bottom: 0;
+    margin: auto;
+ }
 .inner-footer{
     display: flex;
     align-items: baseline;  
+    flex-wrap: wrap;
+    padding: 10px 20px 10px 30px;
+    margin: auto;
 }
-a{
-    text-decoration: none;
+ .footer-title{
     color: white;
+    font-size: 25px;
+    line-height: 24px;
+    padding-bottom: 13px ;
 }
-ul{
+.footer-list-item{
+    padding: 2px;
+}
+.ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-ul li{
+li{
     list-style-type: none;
     padding:2px;
 }
-.footer-title{
+.li{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.outer-footer{
     color: white;
-    font-size: 25px;
-    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.outer-footer-container{
+    right: 0;
+    bottom: 0;
+}
+.footer-container{
+    padding: 0px 30px 60px 30px;
 }
